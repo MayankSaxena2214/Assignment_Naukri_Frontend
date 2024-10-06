@@ -1,11 +1,22 @@
 .snap-container{
     display: flex;
     flex-direction: column;
-    height: 948px;
+    
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 120px;
     background-color: white;
+
+    @media(max-width:768px){
+        /* background-color: #18A0FB; */
+        /* background-color: aquamarine; */
+        padding:0px;
+        margin-top: 50px;
+        width: 690px;
+    }
+
+    
+    
     .snap-heading{
         width: 100%;
         font-size: 48px;
@@ -15,16 +26,32 @@
         height: 144px;
         padding-right: 30px;
         margin-bottom: 30px;
+        
+        @media(max-width:768px){
+            text-align: center;
+            margin-left: 0px;
+            width: 650px;
+            
+        }
     }
 
     .snap-review-container{
         display: flex;
         flex-direction: column;
+        padding:5px;
+
+        @media(max-width:768px){
+            flex-wrap: wrap;
+        }
         
 
         .snap-review-row1,.snap-review-row2{
             display: flex;
             gap:80px;
+
+            @media(max-width:768px){
+                flex-direction: column;
+            }
 
             .snap-review{
                 display: flex;

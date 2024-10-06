@@ -7,6 +7,10 @@
     gap:50px;
     height: 900px;
 
+    @media(max-width:768px){
+        /* background-color: orange; */
+    }
+
     .freetrial-content{
         margin-top: 100px;
 
@@ -37,6 +41,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        @media(max-width:768px){
+            margin-bottom: 50px;
+        }
         form{
             display: flex;
             flex-direction: column;

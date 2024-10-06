@@ -1,5 +1,10 @@
 .home-container{
     background-color: rgb(238, 233, 233);
+    width: 100vw;
+
+    @media(max-width:768px){
+        width: 690px;
+    }
 
     .mt{
         margin-top: 80px;
