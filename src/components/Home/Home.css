@@ -1,0 +1,7 @@
+.home-container{
+    background-color: rgb(238, 233, 233);
+
+    .mt{
+        margin-top: 80px;
+    }
+}

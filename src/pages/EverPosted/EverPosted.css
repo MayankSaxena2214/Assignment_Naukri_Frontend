@@ -1,0 +1,78 @@
+.everposted-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .everposted-heading{
+        font-size: 48px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        height: 72px;
+    }
+    .everposted-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 100px;
+        font-size: 36px;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top: 40px;
+        color:rgba(15, 14, 14,0.8);
+    }
+    .everposted-content-container{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .everposted-content{
+            width: 622px;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            gap:70px;
+
+            .everposted-content-info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                gap:20px;
+                .everposted-content-info-heading{
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-align: start;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+                }
+                .everposted-content-info-para{
+                    font-weight: 400;
+                    padding-right: 50px;
+                    font-size: 18px;
+                    color: rgba(8, 8, 8,0.8);
+                }
+            }
+        }
+        .everposted-image{
+            /* width: 1107px; */
+            height: 738px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 830px;
+                padding-left: 30px;
+                padding-right: 30px;
+                height: 740px;
+            }
+        }
+    }
+
+
+}
